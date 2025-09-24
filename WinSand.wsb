@@ -1,0 +1,10 @@
+<Configuration>
+  <Networking>Disable</Networking>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>F:\from_git\WinSand</HostFolder>
+      <SandboxFolder>C:\from_host</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+</Configuration>
