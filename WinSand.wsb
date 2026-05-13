@@ -1,9 +1,14 @@
 <Configuration>
-  <Networking>Disable</Networking>
+  <!-- <Networking>Disable</Networking> --> <!-- forces reduced Windows Defender Application Guard (WDAG), no anti virus--> 
   <MappedFolders>
     <MappedFolder>
       <HostFolder>F:\from_git\WinSand</HostFolder>
-      <SandboxFolder>C:\from_host</SandboxFolder>
+      <SandboxFolder>C:\from_host\WinSand</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>F:\totes_mcports</HostFolder>
+      <SandboxFolder>C:\from_host\totes_mcports</SandboxFolder>
       <ReadOnly>true</ReadOnly>
     </MappedFolder>
   </MappedFolders>
